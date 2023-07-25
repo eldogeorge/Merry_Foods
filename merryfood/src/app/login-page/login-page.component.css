@@ -1,0 +1,78 @@
+.wrapper {
+    background-color: #fac031;
+    border-radius: 5%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px 40px 60px;
+    transition: all 0.6s ease;
+    width: 25%;
+}
+
+
+
+.form header {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+form input {
+    height: 60px;
+    outline: none;
+    border: none;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 8px;
+    background: #fff;
+    transition: all 0.6s ease;
+}
+
+
+form a {
+    margin-top: 3%;
+    color: #333;
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+.loginbtn {
+    margin-top: 10%;
+    /* padding: 0%; */
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    /* background: white; */
+    color: white;
+    border-color: whitesmoke;
+}
+
+.loginbtn:hover {
+    background-color: white;
+    color: #fac031;
+    transition: all 1s ease;
+
+}
+
+.signup {
+    border-width: 2px;
+}
+
+.signup:hover {
+    color: white;
+    transition: all 1s ease;
+}
+
+@media (max-width:989px) and (min-height:300px){
+    .wrapper{
+        width: 75%;
+    }
+    .loginbtn{
+        margin-left: 0%;
+    }
+}

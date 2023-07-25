@@ -1,0 +1,19 @@
+h1{
+    color: #fac031;
+}
+p{
+    font-family: mv boli;
+    color: black;
+}
+span{
+    color: black;
+    font-size:x-large;
+}
+.order{
+    background-color: black;
+    color: white;
+}
+.order:hover{
+    background-color: #fac031;
+    color: black;
+}

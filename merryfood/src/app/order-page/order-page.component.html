@@ -1,0 +1,61 @@
+<div class="menu row">
+    <h1>Your Order has <span>Placed</span></h1>
+    <h4>{{date | date: 'medium'}}</h4>
+    <div class="col-6">
+        <img src="https://i.postimg.cc/yxstqzzy/order-placed.gif" alt="">
+    </div>
+<div class="col-6">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">S No.</th>
+                    <th scope="col">Product Name</th>
+                    <th scope="col">Price</th>
+                    <th scop="col">Payment Link</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>{{order.productName}}</td>
+                    <td>{{order.price}}</td>
+                    <td>
+                        <button type="button" class="btn paymentbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Payment
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h5 class="modal-title">Payment Details</h5>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-outline-success" (click)="orderpayment()">Pay On Delivery Time</button>
+                                      <a type="button" href="https://razorpay.com/payment-link/plink_MHo510cQ9BzLoD" class="btn btn-outline-warning">Payment</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</div>
+
+
+    <a href="product" class="btn mt-4 me-5 container order">
+        Back <i class="fa-solid fa-backward fa-rotate-180"></i>
+    </a>
+
+
+    <button class="btn mt-4 container order ms-5" (click)="logout()">
+        Logout <i class="fa-solid fa-arrow-right-from-bracket"></i>
+    </button>
+</div>
+<div class="container">
+
+</div>

@@ -1,0 +1,77 @@
+<!-- <p>edit-product works!</p> -->
+<div class="wrapper container">
+    <div class="form signup">
+        <header class="mb-3">Signup</header>
+        <form action="" (ngSubmit)="editProduct()">
+            <div class="form-floating mb-3">
+                <input type="text" formControlName="pid" name="mmno" class="form-control" id="floatingmno" placeholder="ID number">
+                <label for="floatingInput">ID Number</label>
+            </div>
+            <!-- <div *ngIf="this.registerForm.get('mno')?.errors && this.registerForm.get('mno')?.touched">
+                <p class="text-danger">You must enter number</p>
+            </div>
+     -->
+    
+            <div class="form-floating mb-3">
+                <input type="text" [(ngModel)]="pdata.productName"  name="name" class="form-control" id="floatingname" placeholder="Product name">
+                <label for="floatingInput">Product Name</label>
+            </div>
+            <!-- <div *ngIf="this.registerForm.get('uname')?.errors && this.registerForm.get('uname')?.touched">
+                <p class="text-danger">You must enter name</p>
+            </div> -->
+
+
+            <div class="form-floating mb-3">
+                <input type="text" [(ngModel)]="pdata.categoryId"  name="pcno" class="form-control" id="floatingcpno" placeholder="Category">
+                <label for="floatingInput">Category ID Number</label>
+            </div>
+    
+
+            <div class="form-floating mb-3">
+                <input type="text" [(ngModel)]="pdata.description" name="ades" class="form-control" id="floatingdescp" placeholder="Description">
+                <label for="floatingInput">Description</label>
+            </div>
+            <!-- <div *ngIf="this.registerForm.get('address')?.errors && this.registerForm.get('address')?.touched">
+                <p class="text-danger">You must enter address</p>
+            </div> -->
+    
+            <div class="form-floating mb-3">
+                <input type="text" [(ngModel)]="pdata.price" name="ppric" class="form-control" id="floatingpprice" placeholder="mobile number">
+                <label for="floatingInput">Price</label>
+            </div>
+    
+            <div class="form-floating mb-3">
+                <input type="text" [(ngModel)]="pdata.is_avaible" name="piav" class="form-control" id="floatingprav" placeholder="Product is avaible">
+                <label for="floatingInput">Product is avaible</label>
+            </div>
+            <!-- <div *ngIf="this.registerForm.get('email')?.errors && this.registerForm.get('email')?.touched">
+                <p class="text-danger">You must enter email</p>
+            </div> -->
+    
+    
+            <div class="form-floating mb-3">
+                <input type="text" [(ngModel)]="pdata.productImg" name="ps" class="form-control" id="floatingPassword" placeholder="Product Image">
+                <label for="floatingPassword">Product Image</label>
+            </div>
+            <!-- <div *ngIf="this.registerForm.get('psw')?.errors && this.registerForm.get('psw')?.touched">
+                <p class="text-danger">You must enter password with number and letter</p>
+            </div> -->
+    
+    
+            <div class="form-floating mb-3">
+                <input type="text" [(ngModel)]="pdata.review" name="prw" class="form-control" id="floatingcprrw" placeholder="Review">
+                <label for="floatingPassword">Review</label>
+            </div>
+            <!-- <div *ngIf="pswCheck">
+                <p>You password does not match</p>
+            </div> -->
+
+            <button type="submit" class="btn signupbtn w-100">
+                Save  <i class="fa-regular fa-floppy-disk"></i>
+            </button> 
+            <a href="admin" class="btn mt-4 container login">
+                Back <i class="fa-solid fa-backward fa-rotate-180"></i>
+            </a>
+        </form>
+    </div>
+</div>

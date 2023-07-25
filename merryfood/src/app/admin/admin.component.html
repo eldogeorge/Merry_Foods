@@ -1,0 +1,47 @@
+<!-- <p>admin works!</p>-->
+
+<div class="menu">
+    <h1>Our<span>Product</span></h1>
+    <button class="btn container w-50">
+        <div class="form-floating mb-3">
+            <input type="text" [(ngModel)]="searchTerm" (keyup)="search($event)" class="form-control"
+                id="floatingInput" name="prdName" placeholder="Seach...">
+            <label for="floatingInput">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </label>
+        </div>
+    </button>
+    <section class="py-5">
+        <div class="px-4 px-lg-5 mt-5">
+            <div
+                class="menu_box row gx-4 gx-lg-4 row-cols-2 row-cols-md-2 row-cols-xl-4 row-cols-sm-1 justify-content-center mt-5">
+                <div *ngFor="let i of categoryArray | search:searchString:'productName'"  class="menu_card ">
+
+                    <div class="menu_image">
+                        <img src={{i.productImg}}>
+                    </div>
+
+                    <!-- <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                    </div> -->
+
+                    <div class="menu_info">
+                        <h2>{{i.productName}}</h2>
+                        <!-- <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p> -->
+                        <h3>{{i.price}}</h3>
+                        <div class="menu_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <a href="adminSProduct/{{i.id}}" class="btn menu_btn">More..</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>

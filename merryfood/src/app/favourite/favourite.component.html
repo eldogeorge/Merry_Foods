@@ -1,0 +1,40 @@
+<div class="menu row">
+    <h1>Your <span>Wish list</span></h1>
+    <h4>{{date | date: 'medium'}}</h4>
+    <div class="col-6">
+        <img src="https://i.postimg.cc/yxstqzzy/order-placed.gif" alt="">
+    </div>
+<div class="col-6">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">S No.</th>
+                    <th scope="col">Product Name</th>
+                    <th scope="col">Price</th>
+                    <th scop="col">Payment Link</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>{{wishlist.productName}}</td>
+                    <td>{{wishlist.price}}</td>
+                    <td>
+                        <a href="orderPage/{{wishlist.id}}" class="btn order">
+                            order <i class="fa-solid fa-backward fa-rotate-180"></i>
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</div>
+
+
+    <a href="product" class="btn mt-4 me-5 container back">
+        Back <i class="fa-solid fa-backward fa-rotate-180"></i>
+    </a>
+</div>
+<div class="container">
+
+</div>

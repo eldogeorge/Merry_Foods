@@ -1,0 +1,19 @@
+h1{
+    color: #fac031;
+}
+p{
+    font-family: mv boli;
+    color: black;
+}
+span{
+    color: black;
+    font-size:x-large;
+}
+.admin{
+    background-color: black;
+    color: white;
+}
+.admin:hover{
+    background-color:#fac031;
+    color: black;
+}

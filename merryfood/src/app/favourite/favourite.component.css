@@ -1,0 +1,61 @@
+.menu{
+    width: 100%;
+    padding: 70px 0;
+}
+
+.menu h1{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.menu h4{
+    /* font-size: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.menu h1 span{
+    color: #fac031;
+    margin-left: 10px;
+    font-family: mv boli;
+}
+
+.order{
+    background-color: black;
+    color: white;
+    width: 10%;
+    margin-left: 35%;
+}
+.order:hover{
+    background-color: #fac031;
+    color: black;
+}
+
+.menu img{
+    width: 50%;
+    margin-left: 32%;
+}
+.order{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 50%;
+    margin-left: 0%;
+}
+.order:hover{
+    background-color: #fac031;
+    color: black;
+}
+
+.back{
+    background-color: black;
+    color: white;
+    width: 10%;
+}
+.back:hover{
+    background-color: #fac031;
+    color: black;
+}

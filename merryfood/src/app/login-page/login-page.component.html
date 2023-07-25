@@ -1,0 +1,42 @@
+<!-- <div class=" contaw-25">
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email address</label>
+    </div>
+    <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Password</label>
+    </div>
+</div> -->
+
+<div class="wrapper container">
+
+    <div class="form login">
+        <header class="mb-3">Login</header>
+        <form action="" [formGroup]="loginForm">
+            <div class="form-floating mb-3">
+                <input type="text" formControlName="mno" name="mmno" class="form-control" id="floatingmno" placeholder="mobile number">
+                <label for="floatingInput">Mobile Number</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" formControlName="psw" name="ps" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+            <div class="mt-4">
+                <a href="loginPage">Forgot password?</a>
+            </div>
+           
+            <button type="submit" class="btn loginbtn w-100" (click)="login()">
+                Login <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            </button>    
+            <a href="register" class="btn mt-4 container signup">
+                Signup <i class="fa-solid fa-user-plus"></i>
+            </a>
+        </form>
+    </div>
+</div>
+
+
+
+
+

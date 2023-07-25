@@ -1,0 +1,64 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "productName": "Nutmeg Fruit Squash",
+      "categoryId": 2,
+      "description": "Nutmeg squash is prepared for us by a renowned food and drink processing unit with state of the art manufacturing facility.Our Nutmeg squash is prepared from selected hand picked fine quality Nutmeg fruit from Kerala.Nutmeg rind is the outermost part of nutmeg fruit which is thick and fleshy. Its therapeutic property , especially its anti-oxidant, anti-microbial have generated interest in nutmeg rind.",
+      "price": "₹159",
+      "is_avaible": true,
+      "productImg": "https://i.postimg.cc/h4rsVBkK/nutmeg-fruit-squash.png",
+      "review": 150
+    },
+    {
+      "id": 2,
+      "productName": "Banana Halwa",
+      "categoryId": 1,
+      "description": "Banana halwa is a traditional and classic, chewy, and flourless sweet recipe prepared using four ingredients from your kitchen. One of the best recipe to try if you have overripe bananas at home.",
+      "price": "₹200",
+      "is_avaible": true,
+      "productImg": "https://i.postimg.cc/MXJ6HMHY/banana-halwa.png",
+      "review": 150
+    },
+    {
+      "id": 3,
+      "productName": "Netmeg Fruit Candy",
+      "categoryId": 5,
+      "description": "Nutmeg candy is prepared using the fruit covering(pericarp) of nutmeg and organic sugar. The fruit is boiled with sugar and crystallized to make this delicious candy. Nutmeg candy is not only tasty but healthy too. It aids in digestion and provides instant relief from all digestion problems. It is also a rich source of antioxidants. It prevents the signs of aging and also reduces the risk of diseases like cancer, heart disease, and liver disease.",
+      "price": "₹160",
+      "is_avaible": true,
+      "productImg": "https://i.postimg.cc/vBdRxspW/nutmeg-fruit-cany.png",
+      "review": 150
+    },
+    {
+      "id": 4,
+      "productName": "Chocolate Peanut butter",
+      "categoryId": 3,
+      "description": "Most of us can’t say no to peanut butter. Even more of us can’t say no to chocolate. Put the two together in a single jar, and you get an irresistible creamy treat! That’s exactly what we offer in the chocolatey variant of our famous Original Peanut Butter.",
+      "price": "₹350",
+      "is_avaible": true,
+      "productImg": "https://i.postimg.cc/25QcJBKZ/chocolate-peanut-butter.png",
+      "review": 150
+    },
+    {
+      "id": 5,
+      "productName": "Cocoa butter",
+      "categoryId": 4,
+      "description": "Our Cocoa butter is not chemically processed. This retains its inimitably ambrosial Cocoa aroma along with an appetising natural creamy yellow colour. Possess the power to create the most authentic chocolates and chocolate based desserts with our Cocoa butter as your primary ingredient.",
+      "price": "₹400",
+      "is_avaible": true,
+      "productImg": "https://i.postimg.cc/QNcqHVwV/cocoa-butter.png",
+      "review": 150
+    },
+    {
+      "id": "6",
+      "productName": "Peanut Butter",
+      "categoryId": 3,
+      "description": "Peanut butter is a food paste or spread made from ground, dry-roasted peanuts. It commonly contains additional ingredients that modify the taste or texture, such as salt, sweeteners, or emulsifiers. Consumed in many countries, it is the most commonly used of the nut butters, a group that also includes cashew butter and almond butter.",
+      "price": "₹350",
+      "is_avaible": "true",
+      "productImg": "https://i.postimg.cc/0Qfk0nRX/peanut-butter-2.png",
+      "review": "120"
+    }
+  ]
+}
